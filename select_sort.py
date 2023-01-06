@@ -12,8 +12,8 @@ def select_sort(data):
     for x in range(len(data)):
         smallest=data[x]
         index=x
-        for y in range(x+1,len(data)):
-            if smallest>data[y]:
+        for y in range(x+1,len(data)): #由x+1開始比較
+            if smallest>data[y]: #找出最小元素
                 smallest=data[y]
                 index=y
         tmp=data[x]
