@@ -68,6 +68,6 @@ def My_Merge(x,y):
             print('此數字%d取自第1組資料 ' %list3[index3])   
         print('目前的合併排序結果: ',end='')
         for i in range(index3+1):
-            print(list3[i],' ',end='')
+            print(list3[i],' ',end='+')
         print('\n')
 merge_sort()         
