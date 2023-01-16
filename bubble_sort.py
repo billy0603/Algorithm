@@ -1,3 +1,4 @@
+import random
 
 def showdata(data):
     for i in range(len(data)):
@@ -23,5 +24,9 @@ def bubble_sort(data):
     print('排序後結果為:')
     showdata(data)     
 
-data=[16,25,39,27,12,8,45,63]
+#設定arr長度
+arr_len=int(input('設定 list 的長度:'))
+
+data=[random.randint(1,100) for i in range(arr_len)]  #需先排序
+
 bubble_sort(data)

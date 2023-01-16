@@ -1,5 +1,10 @@
-list1=[20,45,88,9999]
-list2=[98,10,23,15,9999]
+import random
+#設定arr長度
+arr_len=int(input('設定 list1 的長度:'))
+list1=[random.randint(1,100) for i in range(arr_len)]
+arr_len=int(input('設定 list2 的長度:'))
+list2=[random.randint(1,100) for i in range(arr_len)]
+
 list3=[]
 
 def merge_sort():
@@ -12,11 +17,11 @@ def merge_sort():
     select_sort(list2)
 
     print('\n第1組資料排序結果: ',end='')
-    for i in range(len(list1)-1):
+    for i in range(len(list1)):
         print(list1[i],' ',end='')
         
     print('\n第2組資料排序結果: ',end='')
-    for i in range(len(list2)-1):
+    for i in range(len(list2)):
         print(list2[i],' ',end='')
     
     print()
@@ -25,14 +30,14 @@ def merge_sort():
         print('=',end='')
     print()
     
-    My_Merge(len(list1)-1,len(list2)-1)
+    My_Merge(len(list1),len(list2))
     
     for i in range(30):
         print('=',end='')
     print()
     
     print('\n合併排序法的最終結果: ',end='')
-    for i in range(len(list3)-1):
+    for i in range(len(list3)):
         print('%d' %list3[i],' ',end='')
 
 

@@ -1,3 +1,4 @@
+import random
 def showdata(data):
     for i in range(len(data)):
         print('%3d' %data[i],end='')
@@ -22,11 +23,13 @@ def shell_sort(data):
         jmp=jmp//2
 
 def main():
-    data=[16,25,39,27,12,8,45,63]
+    arr_len=int(input('設定 list 的長度:'))
+    data=[random.randint(1,100) for i in range(arr_len)]  
     print('原始陣列:')
     showdata(data)
     print('-------------------------------')
     shell_sort(data)
-
+    print('排序後結果為:')
+    showdata(data)
 main()
         
