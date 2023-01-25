@@ -20,3 +20,9 @@
 - 二分搜尋法 -->bin_search.py
 - 內插搜尋法 -->interpolation_search.py
 - 費氏搜尋法 
+
+
+## 矩陣&陣列
+- 矩陣相加 -->add_Matrix.py
+- 矩陣相乘 -->MatrixMultiply.py
+- 矩陣交換 -->exchange_Matrix.py
