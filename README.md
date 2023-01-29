@@ -26,3 +26,9 @@
 - 矩陣相加 -->add_Matrix.py
 - 矩陣相乘 -->MatrixMultiply.py
 - 矩陣交換 -->exchange_Matrix.py
+
+## 鏈結異動
+- 鏈結異動 -->modifynode.py
+## 雜湊函數
+- 線性探測法 -->hash_function.py
+- 鏈結搜尋法 -->hash_function_2.py
