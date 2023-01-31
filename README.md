@@ -32,3 +32,11 @@
 ## 雜湊函數
 - 線性探測法 -->hash_function.py
 - 鏈結搜尋法 -->hash_function_2.py
+
+## 堆疊
+- 簡單堆疊 -->stack_sample.py
+
+## 佇列
+- 簡單佇列 -->sample_queue.py
+- 鏈結佇列 -->link_queue.py
+- 雙向鏈結佇列 -->mutileple_link_queue.py
