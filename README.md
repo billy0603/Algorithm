@@ -40,3 +40,8 @@
 - 簡單佇列 -->sample_queue.py
 - 鏈結佇列 -->link_queue.py
 - 雙向鏈結佇列 -->mutileple_link_queue.py
+
+
+## 樹
+- 二元樹 -->btree.py
+- 鏈結串列二元樹 -->link_btree.py
